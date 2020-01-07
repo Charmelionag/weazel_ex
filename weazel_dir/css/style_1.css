@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	position: relative;
+	font-family: sans-serif;
+	color: #291B0F;
+	margin: auto;
+}
+
+/**************************************************************header*/
+
+#access {
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 10;
+	margin: auto;
+	width: 90%;
+	max-width: 1399px;
+	min-width: 1024px;
+	height: 50px;
+	background-color: #BC2013;
+	border-radius: 4px;
+	z-index: 10;
+}
+
+#access h4 {
+	color: white;
+}
+
+#access img {
+	height: 40px;
+	margin: 5px 15px 5px 5px;
+	float: left;
+}
+
+.left {
+	float: left;
+	margin: 15px 15px 15px 0;
+	color: black;
+}
+
+.right {
+	float: right;
+	margin: 15px 15px 15px 15px;
+	color: black;
+}
+
+.right_img {
+	float: right;
+	margin: 10px 3px;
+}
+
+.inner {
+	overflow: hidden;
+}
+
+/**************************************************************middle*/
+
+#event_1 {
+	position: relative;
+	margin: auto;
+	width: 1024px;
+}
+
+#dream {
+	text-align: center;
+	margin: 100px;
+}
+
+.bord {
+	position: absolute;	
+	height: 100px;
+	z-index: -10;
+}
+
+/******************************************************Les photos mobiles*/
+
+.rame {
+	float: left;
+	margin: 20px 56px;
+	height: 300px;
+	width: 400px;
+	border-radius: 15px;
+	overflow: hidden;
+	transition: 1s;
+	z-index: 9;
+}
+
+.pic {
+	height: 300px;
+	transition: 1s;
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+
+.pic:hover {
+	transform: scale(1.02);
+}
+
+/**************************************************************footer*/
+
+#foot {
+	position: relative;
+	border-top-color:black;
+	border-top-style: solid;
+	border-top-width:3px;
+	width: 90%;
+	max-width: 1399px;
+	min-width: 1024px;
+	margin: 3660px auto 0;
+}
+
+#mail {
+    height: 32px;
+    margin-bottom: 9px;
+    margin-left: 7px;
+}
+
+#facebook {
+	height: 50px;
+	left: 20%;
+	bottom: 0;
+}
+
+#linked {
+	height: 32px;
+	margin-bottom: 9px;
+}
+
+#vent {
+	height: 30px;
+	margin-bottom: 10px;
+	margin-left: 7px;
+}
+
+#rezo {
+	height: 30px;
+	margin-bottom: 10px;
+	margin-left: 7px;
+}
+
+#rezo_wrap {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
+
+#vent_wrap {
+	position: absolute;
+	top: 8px;
+	right: 0;
+}

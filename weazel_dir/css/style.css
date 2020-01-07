@@ -1,0 +1,245 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	font-family: sans-serif;
+	color: #291B0F;
+	margin: auto;
+	
+}
+
+#logo {
+	height: 100px;
+	padding: 0 27%;
+}
+
+.wrap {
+	width: 800px;
+	margin: 300px auto;
+}
+
+#idea {
+	margin: 30px auto;
+	width: 580px;
+}
+
+#idea img {
+	height: 100px;
+}
+
+#idea img_fr {
+	height: 230px;
+}
+
+.wrap h2 {
+	margin-left:210px;
+}
+
+.wrap h3 {
+	text-align: right;
+	margin-right: 210px;
+}
+
+#access {
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 10;
+	margin: auto;
+	width: 90%;
+	max-width: 1399px;
+	min-width: 1024px;
+	height: 50px;
+	background-color: #BC2013;
+	border-radius: 4px;
+}
+
+#access h4 {
+	color: white;
+}
+
+#access img {
+	height: 40px;
+	margin: 5px 15px 5px 5px;
+	float: left;
+}
+
+.left {
+	float: left;
+	margin: 15px 15px 15px 0;
+	color: black;
+}
+
+.right {
+	float: right;
+	margin: 15px 15px 15px 15px;
+	color: black;
+}
+
+.right_img {
+	float: right;
+	margin: 10px 3px;
+}
+
+.inner {
+	overflow: hidden;
+}
+
+#first_i {
+	width: 800px;
+	margin: auto;
+	position: relative;
+	padding-left: 100px;
+}
+
+#drop_menu {
+	position: absolute;
+	top: -50px;
+}
+
+#server {
+	width: 800px;
+}
+
+#fly {
+	height: 70px;
+	position: absolute;
+	top: -50px;
+	left: 0;
+}
+
+#first_i h3 {
+	width: 700px;
+	position: absolute;
+	top: -20px;
+	left: 30px;
+	z-index: 9;
+}
+
+#second {
+	position: relative;
+	width: 800px;
+	margin: auto;
+	padding: 50px 0;
+}
+
+#line {
+	position: absolute;
+	height: 120px;
+	left: -50px;
+	top: -25px;
+}
+
+#second h3 {
+	width: 400px;
+	position: absolute;
+	text-align: right;
+	left: 450px;
+	top: 120px;
+}
+
+#engin {
+	height: 400px;
+}
+
+#third {
+	position: relative;
+	width: 800px;
+	margin: auto;
+	padding-right: 100px;
+	overflow: hidden;
+}
+
+#third h3 {
+	position: absolute;
+	left: 30px;
+	width: 600px;
+}
+
+#line_d {
+	position: absolute;
+	height: 70px;
+	right: 150px;
+	top: 0;
+}
+
+#down_line {
+	position: absolute;
+	height: 100px;
+	right: 0;
+	top: 210px;
+}
+
+#consult {
+	margin-top: 150px;
+	width: 800px;
+}
+
+#foot {
+	position: relative;
+	border-top-color:black;
+	border-top-style: solid;
+	border-top-width:3px;
+	width: 90%;
+	max-width: 1399px;
+	min-width: 1024px;
+	margin: 100px auto 0;
+}
+
+#mail {
+    height: 32px;
+    margin-bottom: 9px;
+    margin-left: 7px;
+}
+
+#facebook {
+	height: 50px;
+	left: 20%;
+	bottom: 0;
+}
+
+#linked {
+	height: 32px;
+	margin-bottom: 9px;
+}
+
+#vent {
+	height: 30px;
+	margin-bottom: 10px;
+	margin-left: 7px;
+}
+
+#rezo {
+	height: 30px;
+	margin-bottom: 10px;
+	margin-left: 7px;
+}
+
+#rezo_wrap {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
+
+#vent_wrap {
+	position: absolute;
+	top: 8px;
+	right: 0;
+}
+
+/****************************************************************************Tutorials*/
+
+.video {
+	padding-top: 100px;
+	width: 800px;
+	margin: auto;
+}
+
+.video h3 {
+	padding-top: 50px;
+	text-align: center;
+}

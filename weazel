@@ -1,0 +1,13 @@
+server {
+	listen 80;
+	listen [::]:80;
+
+	root /var/www/weazel;
+	index index.html;	
+
+	server_name weazel.fr www.weazel.fr;
+
+	location / {
+		try_files $uri $uri/ =404;		
+	}
+}
